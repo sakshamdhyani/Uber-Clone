@@ -1,3 +1,4 @@
+
 import React from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
@@ -22,4 +23,4 @@ export const CaptainLogout = () => {
     )
 }
 
-export default CaptainLogout
+export default CaptainLogout;
