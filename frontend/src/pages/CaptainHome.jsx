@@ -48,9 +48,8 @@ const CaptainHome = () => {
         // return () => clearInterval(locationInterval)
     }, [])
 
-
     socket.on('new-ride', (data) => {
-        console.log("jiiiiiiii")
+
         setRide(data)
         setRidePopupPanel(true)
 

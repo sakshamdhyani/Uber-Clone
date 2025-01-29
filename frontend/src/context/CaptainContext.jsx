@@ -1,4 +1,3 @@
-
 import { createContext, useState, useContext } from 'react';
 
 export const CaptainDataContext = createContext();

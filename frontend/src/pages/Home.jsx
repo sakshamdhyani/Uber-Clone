@@ -198,7 +198,7 @@ const Home = () => {
     }
 
     return (
-        <div className='h-screen relative'>
+        <div className='h-screen relative overflow-hidden'>
             <img className='w-16 absolute left-5 top-5' src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="" />
             <div className='h-screen w-screen'>
                 {/* image for temporary use  */}
@@ -270,7 +270,7 @@ const Home = () => {
 
                     setConfirmRidePanel={setConfirmRidePanel} setVehicleFound={setVehicleFound} />
             </div>
-            <div ref={vehicleFoundRef} className='fixed  w-full z-10 bottom-0 translate-y-full bg-white px-3 py-6 pt-12'>
+            <div ref={vehicleFoundRef} className='fixed w-full z-10 bottom-0 translate-y-full bg-white px-3 py-6 pt-12'>
                 <LookingForDriver
                     createRide={createRide}
                     pickup={pickup}
